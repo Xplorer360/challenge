@@ -8,78 +8,51 @@
     <style>
         body{
             background-color:rgba(211, 220, 223, 0.925);
+            box-sizing: border-box;
             
         }
-        .image{
-            border-radius: 13px;
-            display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  height: 300px;
-  margin-top: 15px;
-} 
-        
-            
-            
-            
-        
-        
-        .text{
-            font-size: larger;
-            font-family: Arial;
-        margin-left: auto;
-        margin-right: auto;
-    font-weight: 800;
-            width: 270px;
+        .container{
             text-align: center;
-            color: rgb(37, 35, 35);
-            
-            
-        }
-        .scan{
-            
-            color:rgb(88, 97, 94);
-            font-family: Arial;
-            margin-bottom: 5px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 260px;
-            text-align: center;
-            
-        }
-        .box{
-            background-color: white;
-            border-radius: 13px;
-            padding-top: 5px;
-            padding-right: 5px;
-            padding-left: 5px;
-            padding-bottom:20px ;
-            
-            margin:20vh 5vh 20vh 5vh;
+        background-color: white;
+            border-radius: 15px;
+            padding: 10px 10px 10px 10px;
+        width: 350px;
 
             
+            
         }
-        @media (min-width: 600px) {
-  .box {
-    width: 50%;
-    margin:60px auto ;
-    padding-top: 1px;
-    padding-right: px;
-    padding-left: 1px
-    
-  }
-  
+       .image{
+        height: 350px;
+        width: 330px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+       }
+h2{
+    font-family: Arial; 
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
+p{
+    font-family: sans-serif;
+    color:rgba(95, 100, 102, 0.925);
+width: 280px;
+margin-left: 5px;
+margin-right: 5px;
+}
+ 
+    
 
     </style>
 </head>
 <body>
     
-    <div class="box"><img class="image" height="150px" width="145px" src="image-qr-code.png">
-    <div>
-    <p class="text">Improve your front-end skills by building projects </p>
-    <p class="scan">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <div class="container"><img class="image" height="150px" width="145px" src="image-qr-code.png">
+
+    <h2>Improve your front-end skills by building projects </h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
     </div>
 </body>
 </html>
